@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 80vw;
+    font-family: 'Ubuntu', sans-serif;
+}
+.navbar{
+    display: flex;
+    height: 65px;
+    
+}
+.navbar li{
+    list-style: none;
+    margin: 0 12px;
+
+}
+.topleft{
+width: 50%;
+/* height: 50vh; */
+/* padding: 12px 0; */
+}
+.topright{
+    width: 50%;
+    /* height: 50vh; */
+}
+.section1{
+   max-height: 100vh;
+  
+   /* overflow-y: hidden;
+   overflow-x: visible; */
+}
+.logo{
+    font-size: 1.3rem;
+}
+.dumbbling{
+    width: 150px;
+    height: 150px;
+}
+.topright .gymimg{
+    width: 380px;
+}
+.section1 h1{
+    font-size: 2rem;
+}
+
+.section2{
+    padding: 73px;
+    /* padding-left: 63px;
+    padding-right: 63px; */
+}
+.section2 h1{
+    font-size: 2.1rem;
+}
+.section2 p{
+    padding: 0 8vw;
+    text-align: center;
+}
+
+.box{
+    padding: 8px 0;
+    margin: 12px 22px;
+    min-width: 20vw;
+    border: 2px solid rgb(19, 12, 12);
+    border-radius: 8px;
+    text-align: center;
+    
+}
+.box ul{
+    list-style: none;
+}
+.box ul li{
+    margin: 10px 1px;
+}
+.box h2{
+    font-size: 2rem;
+    padding: 10px;
+}
+.highlighted{
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+.planttable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section3 table{
+    width: 100%;
+    margin-bottom: 140px;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+.section3 h1{
+    font-size: 2.1rem;
+}
+.section3{
+    padding: 10px;
+    /* padding-left: 63px;
+    padding-right: 63px; */
+    
+}
+.section3 table th{
+    width: 23vw;
+    border-bottom: 2px solid black;
+    padding: 15px 0;;
+}
+.section3 table td{
+    border-bottom: 2px solid black;
+}
+.section3 table tr{
+    /* border-bottom: 2px solid black; */
+}
+footer{
+    padding: 15px;
+    text-align: center;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px;
+}
+
+.deal{
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin: 12px 0;
+}
